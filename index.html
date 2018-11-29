@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="spaceAround"> Space Around</h1>
+    <div id="container">
+        <div id="points">0</div>
+      <div class="spaceshipOne">
+          <input type="image" id="firstShip" onclick="playSound()"  >
+          <audio src="./sounds/sound1.wav" id="firstSound">
+            <source src="./sounds/sound1.wav" type=""id="firstSoundss">
+        </audio></input>
+      </div>
+      <div class="spaceshipTwo">
+            <div id="pointsTwo">0</div>
+          <input type="image"  alt="" id="secondShip" onclick="PlaySecondSound()" >
+          <audio src="./sounds/sound2.wav" id="secondSound">
+        <source src="./sounds/sound2.wav" type="" id="secondSoundss">
+        </audio></input>
+      </div>
+     <div class="spaceshipThree">
+        <div id="pointsThree">0</div>
+        <input type="image" id="thirdShip" onclick=" playSoundThree()" >
+
+         <audio src="./sounds/sound3.wav" id="thirdSound">
+            <source src="./sounds/sound3.wav"id="thirdSoundss">
+        </audio></input>
+     </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
